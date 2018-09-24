@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CohesionCouplingExample", "CohesionCouplingExample\CohesionCouplingExample.csproj", "{5E96ACA7-614B-4AA7-B163-C96A0AD64842}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CohesionCouplingExample", "CohesionCouplingExample\CohesionCouplingExample.csproj", "{5E96ACA7-614B-4AA7-B163-C96A0AD64842}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowCohesionLowCoupling", "LowCohesionLowCoupling\LowCohesionLowCoupling.csproj", "{2EF5F70B-A58D-4376-B9B7-28A837CC84DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LowCohesionLowCoupling", "LowCohesionLowCoupling\LowCohesionLowCoupling.csproj", "{2EF5F70B-A58D-4376-B9B7-28A837CC84DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighCohesionHighCoupling", "HighCohesionHighCoupling\HighCohesionHighCoupling.csproj", "{5C3EE33E-DFD7-4B83-8647-1E97EBB1BDC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HighCohesionHighCoupling", "HighCohesionHighCoupling\HighCohesionHighCoupling.csproj", "{5C3EE33E-DFD7-4B83-8647-1E97EBB1BDC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CohesionAndCoupling", "CohesionAndCoupling", "{486CAC63-637B-4F6C-A133-BAF270C49E9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E96ACA7-614B-4AA7-B163-C96A0AD64842} = {486CAC63-637B-4F6C-A133-BAF270C49E9C}
+		{2EF5F70B-A58D-4376-B9B7-28A837CC84DB} = {486CAC63-637B-4F6C-A133-BAF270C49E9C}
+		{5C3EE33E-DFD7-4B83-8647-1E97EBB1BDC8} = {486CAC63-637B-4F6C-A133-BAF270C49E9C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A52299F4-2C39-47E5-AD97-C459A77F42A6}
