@@ -23,11 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceLocatorTwo", "Servic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPatternsEssentials", "DesignPatternsEssentials", "{A89FDF97-1227-41FD-8060-F6A39F45005C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{4C428D2E-D90F-4E79-B671-A53CA108681E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{4C428D2E-D90F-4E79-B671-A53CA108681E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{9E326F92-12F2-4E8B-AC42-9E8CAB0B29F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{9E326F92-12F2-4E8B-AC42-9E8CAB0B29F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{F4C92FBF-6EE4-494F-8324-A81CF528C188}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{F4C92FBF-6EE4-494F-8324-A81CF528C188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{97690988-6F01-485C-979E-C519D8715828}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,10 @@ Global
 		{F4C92FBF-6EE4-494F-8324-A81CF528C188}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4C92FBF-6EE4-494F-8324-A81CF528C188}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4C92FBF-6EE4-494F-8324-A81CF528C188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97690988-6F01-485C-979E-C519D8715828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97690988-6F01-485C-979E-C519D8715828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97690988-6F01-485C-979E-C519D8715828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97690988-6F01-485C-979E-C519D8715828}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +91,7 @@ Global
 		{4C428D2E-D90F-4E79-B671-A53CA108681E} = {A89FDF97-1227-41FD-8060-F6A39F45005C}
 		{9E326F92-12F2-4E8B-AC42-9E8CAB0B29F2} = {A89FDF97-1227-41FD-8060-F6A39F45005C}
 		{F4C92FBF-6EE4-494F-8324-A81CF528C188} = {A89FDF97-1227-41FD-8060-F6A39F45005C}
+		{97690988-6F01-485C-979E-C519D8715828} = {A89FDF97-1227-41FD-8060-F6A39F45005C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A52299F4-2C39-47E5-AD97-C459A77F42A6}
